@@ -58,6 +58,12 @@ object ArrayOps {
 
     Array(1, 2, 4, 5).sum
 
+    println("---------------")
+    for (i <- 0 until (c.length, 2)) {
+      print(c(i) + "  ")
+    }
+    println("---------------")
+
     val m = ArrayBuffer("Mary", "had", "a", "little", "lamb").max
     println(m)
     val m2 = ArrayBuffer("mary", "had", "a", "little", "lamb").max
